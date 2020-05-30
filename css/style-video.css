@@ -1,3 +1,7 @@
+*{
+    border: none;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -15,6 +19,7 @@ body{
 	width: 0;
 }
 #progressbar{
+    margin-top: 10px;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -226,22 +231,23 @@ body{
 
 #AparecendoLogoManual img{
 	width: 10vh;
-	height: 10vh;
+    height: 10vh;
+    display: none;
 }
 
 #AparecendoLogoManual{
-	width: 10vh;
-	height: 10vh;
-	
-	margin-left: 40vh;
-	margin-top: -6vh;
-	
-	
-	display: none;
+	width: 35vh;
+    height: 10vh;
+    
+	margin-left: 10vh;
+    margin-top: -7vh;
+    
+    display: flex;
+    justify-content: flex-end;
 }
 
-#painel:hover #AparecendoLogoManual{
-	display: block;
+#AparecendoLogoManual:hover img{
+    display: block;
 }
 
 .buttom{

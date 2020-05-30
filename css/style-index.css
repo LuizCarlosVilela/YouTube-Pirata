@@ -52,7 +52,8 @@ body{
         text-shadow: 0 0 4vh #a621ff;
     }
     40%  {
-		margin-top: 25vh; transform: scale(1)
+        margin-top: 25vh; 
+        transform: scale(1);
         text-shadow: 0 0 5vh #21ebff;
     }
     75%{
@@ -62,7 +63,8 @@ body{
         text-shadow: 0 0 3vh #21ebff;
     }
     100% {
-		margin-top: 0vh; transform: scale(1)
+        margin-top: 0vh; 
+        transform: scale(1);
         text-shadow: 0 0 2vh #21ff58;
     }
 }
