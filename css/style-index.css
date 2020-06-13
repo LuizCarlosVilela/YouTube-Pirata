@@ -151,28 +151,40 @@ body{
     border-right: 2px solid #21ebff;
     transition: 0.5s;
 }
+
 #painel a:hover:after{
     width: 95%;
     height: 95%;
 }
-#AparecendoLogoManual img{
-	width: 10vh;
-	height: 10vh;
+
+#aparecendoLogo {
+    padding: 0;
+    margin: 0;
 }
 
-#AparecendoLogoManual{
+#AparecendoLogo img{
 	width: 10vh;
-	height: 10vh;
-	
-	margin-left: 40vh;
-	margin-top: -6vh;
-	
-	
-	display: none;
+    height: 10vh;
+    display: none;
 }
 
-#painel:hover #AparecendoLogoManual{
-	display: block;
+#AparecendoLogo {
+	width: 35vh;
+    height: 10vh;
+    
+	margin-left: 10vh;
+    margin-top: -7vh;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+#AparecendoLogo:hover img{
+    display: block;
+}
+
+#hy {
+    border-radius: 30px;
 }
 
 .buttom{

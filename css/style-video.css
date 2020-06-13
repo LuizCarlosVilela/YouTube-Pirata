@@ -229,13 +229,18 @@ body{
     height: 95%;
 }
 
-#AparecendoLogoManual img{
+#aparecendoLogo {
+    padding: 0;
+    margin: 0;
+}
+
+#AparecendoLogo img{
 	width: 10vh;
     height: 10vh;
     display: none;
 }
 
-#AparecendoLogoManual{
+#AparecendoLogo {
 	width: 35vh;
     height: 10vh;
     
@@ -246,12 +251,16 @@ body{
     justify-content: flex-end;
 }
 
-#AparecendoLogoManual:hover img{
+#AparecendoLogo:hover img{
     display: block;
 }
 
 .buttom{
     margin-top: 10vh;
+}
+
+#hy {
+    border-radius: 30px;
 }
 
 

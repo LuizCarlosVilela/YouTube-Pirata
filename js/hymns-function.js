@@ -1,7 +1,7 @@
   
 (function(){
-    const API_KEY = "AIzaSyAwT2i1azfvYf4PQJ1_5he1bfsTLP_6oYU";
-    const channelId = "UCKHhA5hN2UohhFDfNXB_cvQ"; //ID do canal;
+    const API_KEY = "AIzaSyCWdjSQPJ2-yLIYZTpiPgSJ1fQiUoeWs18";
+    const channelId = "UChnPoz2O6d3mdbC4MapA6ZA"; //ID do canal;
 
     const renderVideos = data =>{
         const container = document.getElementById("videos");
@@ -29,6 +29,6 @@ var progress = document.getElementById('progressbar');
 var totalHeight = document.body.scrollHeight - window.innerHeight;
 		
 window.onscroll = function(){
-	let progressHeight = (window.pageYOffset / totalHeight)*1.8;
+	let progressHeight = (window.pageYOffset / totalHeight)*1.9;
 	progress.style.height = Math.abs(progressHeight)+ "vh";
 }
