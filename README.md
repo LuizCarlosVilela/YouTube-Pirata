@@ -6,7 +6,7 @@ Projeto para desenvolver conhecimento sobre manipulação de API e callback de r
 Para manipular a API do própio youtube, deve-se estudar sua documentação.
 - [Link Para Documentação](https://developers.google.com/youtube/v3/docs?hl=pt-br).
 
-### Técnologias Usadas
+## Técnologias Usadas
 
 * HTML(Marcação)
 * CSS (Estilização)
